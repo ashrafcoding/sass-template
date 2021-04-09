@@ -1,0 +1,66 @@
+// Start Slider
+.slider {
+    blockquote {
+        font-size: 20px;
+        line-height: 1.7;
+        text-align: center;
+        font-style: italic;
+        color: #5e5e5e;
+        width: 90%;
+        margin: 30px auto;
+    }
+    img {
+        max-width: 100%;
+        
+
+    }
+    .bullets {
+        text-align: center;
+        li {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: $greyColor;
+            border: 2px solid $greyColor;
+            cursor: pointer;
+            &.active,
+            &:hover {
+                background-color: #fff;
+                border: 2px solid #333;
+            }
+
+        }
+    }
+}
+// End Slider
+
+/* Start Servives */
+.services {
+    .service-box {
+        float: $float-left;
+        width: (100%/3);
+        &:not(:last-of-type) {
+            padding-right: 20px;
+        }
+        h3 {
+            color: #666;
+        }
+        i {
+            font-size: 35px;
+            position: relative;
+            top: 4px;
+            margin-right: 10px;
+
+        }
+        p {
+            color: #777;
+            line-height: 1.5;
+        }
+        a {
+            color: $redColor;
+            text-decoration: none;
+        }
+    }
+}
+/* End Servives */
