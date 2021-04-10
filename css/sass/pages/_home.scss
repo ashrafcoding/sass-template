@@ -64,3 +64,52 @@
     }
 }
 /* End Servives */
+
+/* Start Our Players */
+.our-players {
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .player-box { 
+        width: (100%/5.5); 
+        img {
+            width: 200px;
+            height: 200px;
+        }
+        .player-title {
+            color: #666;
+            font-weight: normal;
+            span {
+                font-weight: bold;
+            }
+        }
+       
+        .player-desc {
+            color: #777;
+            line-height: 1.5;
+        }
+        .link {
+            color: $redColor;
+            text-decoration: none;
+        }
+    }
+}
+/* End Our Players */
+
+/* Start lorem */
+.lorem {
+    .boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+    .lorem-box {
+        width: (100%/3.2);
+        img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+/* End lorem */
